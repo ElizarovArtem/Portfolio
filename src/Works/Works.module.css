@@ -1,0 +1,19 @@
+.works {
+    min-height: 100vh;
+    background-color: aqua;
+}
+.worksContainer {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.worksItems {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo {
+    background-color: lightgreen;
+}

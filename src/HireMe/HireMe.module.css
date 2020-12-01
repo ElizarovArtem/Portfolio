@@ -1,0 +1,10 @@
+.hireMe {
+    height: 25vh;
+    background-color: beige;
+}
+.hireMeContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}

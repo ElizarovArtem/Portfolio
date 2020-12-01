@@ -1,0 +1,23 @@
+.picture {
+    width: 100%;
+    height: 250px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workItems {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.look {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color: beige;
+}

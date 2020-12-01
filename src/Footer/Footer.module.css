@@ -1,0 +1,21 @@
+.hireMe {
+    height: 50vh;
+    background-color: dodgerblue;
+}
+.footerContainer {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts {
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.something {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+}

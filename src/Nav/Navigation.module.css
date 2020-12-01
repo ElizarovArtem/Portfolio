@@ -1,0 +1,16 @@
+.nav {
+    border: 1px solid ;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.navContainer {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid;
+    flex-wrap: wrap;
+}
