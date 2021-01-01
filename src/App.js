@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
@@ -21,5 +21,7 @@ function App() {
     </div>
   );
 }
+
+// https://marketifythemes.com/html/arlo/index.html
 
 export default App;

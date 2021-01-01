@@ -1,0 +1,19 @@
+.projectsTitle, .projectsTitle h2 {
+    width: 100%;
+    height: auto;
+}
+.projectsTitle h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.4;
+    font-family: montserrat;
+    color: #000;
+}
+.projectsTitle span {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4169e1;
+    font-weight: 500;
+}

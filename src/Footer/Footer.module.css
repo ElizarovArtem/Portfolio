@@ -1,6 +1,9 @@
 .hireMe {
-    height: 50vh;
-    background-color: dodgerblue;
+    min-height: 25vh;
+    background-color: #002245;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 40px 0;
 }
 .footerContainer {
     justify-content: space-between;
@@ -8,13 +11,11 @@
     flex-direction: column;
 }
 .contacts {
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 .something {
-    border: 1px solid;
     width: 100px;
     height: 100px;
     background-color: darkgray;

@@ -7,8 +7,8 @@ export function HireMe() {
     return(
         <div className={s.hireMe}>
             <div className={`${styleContainer.container} ${s.hireMeContainer}`}>
-                <h3>I am considering opportunity for remote work</h3>
-                <button>Hire Me</button>
+                <h3>I am considering opportunity for <span>remote</span> work</h3>
+                <button className={s.button}>Hire Me</button>
             </div>
         </div>
     )

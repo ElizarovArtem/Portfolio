@@ -1,0 +1,36 @@
+.progress {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 9px;
+}
+.progressInner {
+    width: 100%;
+    margin-bottom: 14px;
+}
+.progressInner>span {
+    margin: 0 0 7px;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+.progressInner .number {
+    float: right;
+}
+.background {
+    background: #07081f;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    height: 8px;
+}
+.bar {
+    height: 100%;
+}
+.barIn {
+    height: 100%;
+    background-color: #4169e1;
+    width: 50%;
+    overflow: hidden;
+}

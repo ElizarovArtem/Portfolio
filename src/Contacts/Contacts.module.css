@@ -1,28 +1,72 @@
 .contacts {
-    height: 50vh;
-    background-color: lightpink;
+    min-height: 50vh;
+    background-color: white;
+    padding: 140px 0 156px;
 }
+
 .contactsContainer {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
+
 .messageForm {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.button {
-    width: 100px;
-    height: 40px;
-}
 .form {
-    border: 1px solid;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 77px;
 }
-.input {
-    margin-bottom: 10px;
+.first {
+    width: 100%;
+}
+.first ul {
+    margin: 0;
+    list-style-type: none
+}
+.first ul li {
+    width: 100%;
+    margin: 0 0 30px;
+}
+.first ul li input {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: montserrat;
+}
+.last textarea {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 120px;
+    padding: 5px 10px;
+    resize: none;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: montserrat;
+
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4169e1;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 5px;
+    vertical-align: baseline;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: .8px;
 }
