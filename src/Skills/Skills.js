@@ -4,7 +4,10 @@ import styleContainer from './../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
 import {SkillProgress} from "./Skill/SkillProgress/SkillProgress";
 import {Title} from "../common/components/title/Title";
-
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faCss3 } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 
 export function Skills() {
     return(
@@ -12,13 +15,12 @@ export function Skills() {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={"Skills"} description={"what i do"}/>
                 <div className={s.skills}>
-                    <Skill title={"JS"} description = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"}/>
-                    <Skill title={"CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "}/>
-                    <Skill title={"HTML"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
-                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
+                    <Skill style={faJs} title={"JS"} description = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"}/>
+                    <Skill style={faCss3} title={"CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "}/>
+                    <Skill style={faHtml5} title={"HTML"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
+                    <Skill style={faReact}  title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
                 </div>
-
-                <div class="arlo_tm_progress_wrap">
+                <div>
                     <div className={s.container}>
                         <div className={s.progressWrapInner}>
                             <div className={s.left}>

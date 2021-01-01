@@ -5,7 +5,7 @@ export function Work(props) {
     let [isOpen, setIsOpen] = useState(false)
 
     return(
-        <div className={s.workItems}>
+        <div className={s.workItem}>
             <a href={"/"}>
                 <div className={s.picture} style={props.style} onMouseEnter={() => setIsOpen(true)}
                      onMouseLeave={() => setIsOpen(false)}>
@@ -18,7 +18,6 @@ export function Work(props) {
                     </div>
                 </div>
             </a>
-
         </div>
     )
 }

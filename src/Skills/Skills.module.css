@@ -50,7 +50,6 @@
 .progressWrapInner {
     height: auto;
     clear: both;
-    float: left;
     display: flex;
 }
 
@@ -72,4 +71,21 @@
     padding-left: 30px;
     position: relative;
     top: -5px;
+}
+
+@media screen and (max-width: 880px) {
+    .progressWrapInner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+    .right {
+        width: 100%;
+        padding-left: 0;
+    }
 }

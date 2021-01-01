@@ -27,17 +27,25 @@
     justify-content: center;
     flex-direction: column;
 }
-.workItems {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+.workItem {
+    margin-bottom: 40px;
 }
 .look {
     display: block;
     width: 100px;
     height: 20px;
     background-color: beige;
+}
+
+@media screen and (max-width: 757px) {
+    .picture {
+        width:400px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .picture {
+        width:200px;
+        height: 100px;
+    }
 }

@@ -1,11 +1,9 @@
 .main {
     min-height: 100vh;
     text-align: center;
-    padding: 0 20px;
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,4 +40,24 @@
     position: relative;
     z-index: 1;
     border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 500px) {
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .photo {
+        width: 150px;
+        height: 150px;
+    }
+    .text h1 {
+        font-size: 25px;
+    }
 }

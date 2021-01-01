@@ -1,12 +1,12 @@
 .hireMe {
-    min-height: 25vh;
+    height: 25vh;
     background-color: #002245;
     color: #fff;
     text-transform: capitalize;
     padding: 40px 0;
 }
 .footerContainer {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }

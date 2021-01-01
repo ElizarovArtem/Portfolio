@@ -70,3 +70,22 @@
     line-height: 2;
     letter-spacing: .8px;
 }
+
+@media screen and (max-width: 500px) {
+    .button {
+        width:150px;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .first ul li input {
+        width: 100%;
+
+    }
+    .last textarea {
+        width: 100%;
+    }
+    .form {
+        width: 80%;
+    }
+}

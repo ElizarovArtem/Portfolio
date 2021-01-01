@@ -1,5 +1,5 @@
 .hireMe {
-    height: 25vh;
+    min-height: 25vh;
     background-color: #f9f9f9;
     padding: 140px 0 125px;
 }
@@ -30,4 +30,11 @@
     font-size: 16px;
     line-height: 2;
     letter-spacing: .8px;
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        width:150px;
+
+    }
 }
