@@ -1,5 +1,5 @@
 import React from "react";
-import s from './Works.module.css';
+import s from './Works.module.scss';
 import {Work} from "./Work/Work";
 import styleContainer from './../common/styles/Container.module.css'
 import SocialNetwork from "../assets/SocialNetwork.png";

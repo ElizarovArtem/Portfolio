@@ -1,0 +1,20 @@
+.works {
+    min-height: 50vh;
+    background-color: #ffffff;
+    padding: 140px 0 125px;
+    clear: both;
+    .worksContainer {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        .worksItems {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: auto;
+            clear: both;
+            padding-top: 77px;
+        }
+    }
+}

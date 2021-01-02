@@ -1,0 +1,18 @@
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4169e1;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 5px;
+  vertical-align: baseline;
+  width: 200px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: .8px;
+  @media screen and (max-width: 500px) {
+      width:150px;
+  }
+}

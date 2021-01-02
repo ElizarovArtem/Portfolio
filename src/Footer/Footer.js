@@ -1,5 +1,5 @@
 import React from "react";
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import styleContainer from './../common/styles/Container.module.css'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {FooterMessengerItem} from "./footerMessangerItem/FooterMessengerItem";
@@ -10,7 +10,7 @@ import { faTelegram } from '@fortawesome/free-brands-svg-icons'
 
 export function Footer() {
     return(
-        <div className={s.hireMe}>
+        <div className={s.footer}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <h3>Elizarov Artem</h3>
                 <div className={s.contacts}>

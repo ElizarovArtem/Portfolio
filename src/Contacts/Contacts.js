@@ -1,7 +1,8 @@
 import React from "react";
-import s from './Contacts.module.css'
+import s from './Contacts.module.scss'
 import styleContainer from './../common/styles/Container.module.css'
 import {Title} from "../common/components/title/Title";
+import {Button} from "../common/components/button/Button";
 
 
 export function Contacts() {
@@ -23,7 +24,7 @@ export function Contacts() {
                         <div className={s.last}>
                             <textarea placeholder="Message"></textarea>
                         </div>
-                        <button className={s.button}>Send</button>
+                        <Button title={"Send"}/>
                     </form>
 
             </div>

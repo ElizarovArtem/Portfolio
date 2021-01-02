@@ -1,5 +1,5 @@
 import React from "react";
-import s from './Skill.module.css'
+import s from './Skill.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Skill(props) {
