@@ -5,9 +5,6 @@ import bgPalms from "../assets/palms.jpg"
 import avatar from "../assets/avatar.jpg"
 
 export function Main() {
-    const divStyle = {
-        backgroundImage: 'url(' + bgPalms + ')',
-    };
     const flexStyle = {
         flexDirection: "column"
     }
@@ -15,7 +12,7 @@ export function Main() {
         backgroundImage: 'url(' + avatar + ')',
     };
     return(
-        <div className={s.main} style={divStyle}>
+        <div className={s.main} >
             <din className={styleContainer.container} style={flexStyle}>
                 <div className={s.photo} style={avatarPick}></div>
                 <div className={s.text}>

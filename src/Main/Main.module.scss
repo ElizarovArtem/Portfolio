@@ -1,8 +1,9 @@
+@import "src/common/styles/sass/variables";
+
 .main {
     min-height: 100vh;
     text-align: center;
-    background-size: cover;
-    background-position: center;
+   background-color: $firstContentBgColor;
     position: relative;
     display: flex;
     align-items: center;
