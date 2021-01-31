@@ -12,7 +12,25 @@
   font-size: 16px;
   line-height: 2;
   letter-spacing: .8px;
+  position: relative;
   @media screen and (max-width: 500px) {
-      width:150px;
+    width: 150px;
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    left: -25%;
+    background-color: rgba(255,255,255,.15);
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+  }
+  &:hover{
+    &::before {
+      width: 150%;
+    }
   }
 }

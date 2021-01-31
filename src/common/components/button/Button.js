@@ -3,5 +3,7 @@ import React from "react";
 
 
 export function Button(props) {
-    return <button className={s.button}>{props.title}</button>
+    return <div>
+        <button onClick={() => alert("hey")} className={s.button}>{props.title}</button>
+    </div>
 }
