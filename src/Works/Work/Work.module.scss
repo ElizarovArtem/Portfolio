@@ -1,3 +1,5 @@
+@import "src/common/styles/sass/variables";
+
 .workItem {
     margin-bottom: 40px;
     .picture {
@@ -12,6 +14,11 @@
         background-repeat: no-repeat;
         position: relative;
         border-radius: 10px;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1,1.1)
+        }
         @media screen and (max-width: 757px) {
             width:400px;
             height: 200px;
@@ -40,6 +47,15 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        a {
+            color: $textColor;
+            text-decoration: none;
+            &:hover {
+                color: $spanColor;
+                font-weight: bold;
+            }
+        }
     }
 }
 

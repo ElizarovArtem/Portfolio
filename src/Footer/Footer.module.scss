@@ -1,6 +1,7 @@
 @import "src/common/styles/sass/variables";
 
 .footer {
+    //box-sizing: border-box;
     height: 25vh;
     background-color: $headAndFootBgColor;
     color: $textColor;

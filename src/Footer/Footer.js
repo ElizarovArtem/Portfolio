@@ -14,10 +14,10 @@ export function Footer() {
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <h3>Elizarov Artem</h3>
                 <div className={s.contacts}>
-                    <FooterMessengerItem style={faEnvelope}/>
-                    <FooterMessengerItem style={faVk}/>
-                    <FooterMessengerItem style={faWhatsapp}/>
-                    <FooterMessengerItem style={faTelegram}/>
+                    <a href={"https://e.mail.ru/inbox/?from=login&back=1%2C1"}><FooterMessengerItem style={faEnvelope}/></a>
+                    <a href={"https://vk.com/id7040670"}><FooterMessengerItem style={faVk}/></a>
+                    <a href={"https://wa.me/89817002076"}><FooterMessengerItem style={faWhatsapp}/></a>
+                    <a href={"https://t.me/Elizarov_Artem"}><FooterMessengerItem style={faTelegram}/></a>
                 </div>
                 <span>All rights reserved</span>
             </div>

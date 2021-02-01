@@ -16,14 +16,14 @@ export function Skills() {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={"Skills"} description={"what i do"}/>
                 <div className={s.skills}>
+                    <Skill style={faReact} title={"React-Redux-TypeScript"}
+                           description={"Have an experience in creating different applications, landing pages, SPA using React, Redux, Typescript."}/>
                     <Skill style={faJs} title={"JS"}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"}/>
-                    <Skill style={faCss3} title={"CSS"}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "}/>
+                           description={"In my free time I like to solve tasks on CodeWars to improve my JavaScript skill."}/>
                     <Skill style={faHtml5} title={"HTML"}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
-                    <Skill style={faReact} title={"React"}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vafancullo diamo batronte"}/>
+                           description={"Sometimes I coding different landing pages for maintain and improve my HTML skill."}/>
+                    <Skill style={faCss3} title={"CSS"}
+                           description={"I like to read different articles about interesting solutions and new features of CSS and testing it."}/>
                 </div>
 
                 <div className={s.container}>
@@ -44,10 +44,10 @@ export function Skills() {
                         </Slide>
                         <Slide right>
                             <div className={s.right}>
-                                <SkillProgress title={"React"} percent={"60%"}/>
-                                <SkillProgress title={"HTML"} percent={"55%"} style={{}}/>
-                                <SkillProgress title={"CSS"} percent={"35%"}/>
-                                <SkillProgress title={"JS"} percent={"50%"}/>
+                                <SkillProgress title={"React-Redux-TypeScript"} percent={"80%"}/>
+                                <SkillProgress title={"HTML"} percent={"75%"} style={{}}/>
+                                <SkillProgress title={"CSS"} percent={"65%"}/>
+                                <SkillProgress title={"JS"} percent={"65%"}/>
                             </div>
                         </Slide>
                     </div>

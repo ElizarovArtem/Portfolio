@@ -19,8 +19,24 @@ export function Works() {
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <Title title={"Projects"} description={"featured works"}/>
                 <div className={s.worksItems}>
-                    <Work title={"Social Network"} style={SocialNetworkImage} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "}/>
-                    <Work title={"Todolist"} style={TodolistImage} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "}/>
+                    <Work
+                        title={"Social Network"}
+                        style={SocialNetworkImage}
+                        description={"Create self made Social Network using React, Redux, Typescript"}
+                        link={"http://ElizarovArtem.github.io/SocialNetwork"}
+                        linkText={"Social Network on gh-pages"}
+                        secondLink={"https://github.com/ElizarovArtem/SocialNetwork"}
+                        secondLinkText={"Social Network on GitHub"}
+                    />
+                    <Work
+                        title={"Todolist"}
+                        style={TodolistImage}
+                        description={"Create self made TodoList using React, Redux, Typescript"}
+                        link={"http://ElizarovArtem.github.io/TodoList"}
+                        linkText={"TodoList on gh-pages"}
+                        secondLink={"https://github.com/ElizarovArtem/TodoList"}
+                        secondLinkText={"TodoList on GitHub"}
+                    />
                 </div>
             </div>
         </div>
