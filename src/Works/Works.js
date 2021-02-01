@@ -15,7 +15,7 @@ export function Works() {
     };
 
     return (
-        <div className={s.works}>
+        <div id={"works"} className={s.works}>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <Title title={"Projects"} description={"featured works"}/>
                 <div className={s.worksItems}>

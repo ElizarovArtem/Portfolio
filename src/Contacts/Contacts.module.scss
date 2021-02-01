@@ -1,3 +1,5 @@
+@import 'src/common/styles/sass/variables';
+
 .contacts {
     min-height: 50vh;
     background-color: white;
@@ -29,7 +31,11 @@
                     border: 1px solid rgba(0, 0, 0, .2);
                     background-color: #fff;
                     border-radius: 5px;
-                    font-family: montserrat;
+                    font-family: montserrat, sans-serif;
+
+                    &:focus {
+                        outline-color: $spanColor;
+                    }
                     @media screen and (max-width: 1000px) {
                         width: 100%;
                     }
@@ -44,7 +50,12 @@
                 margin-bottom: 20px;
                 background-color: #fff;
                 border-radius: 5px;
-                font-family: montserrat;
+                font-family: montserrat, sans-serif;
+
+                &:focus {
+                    outline-color: $spanColor;
+                }
+
                 @media screen and (max-width: 1000px) {
                     width: 100%;
                 }

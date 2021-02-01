@@ -11,6 +11,11 @@
     padding: 60px 40px 53px;
     top: 0;
     border-radius: 5px;
+    transition: 0.5s;
+
+    &:hover {
+        top: -20px;
+    }
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
