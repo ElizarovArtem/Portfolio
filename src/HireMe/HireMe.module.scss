@@ -1,3 +1,5 @@
+@import "src/common/components/button/Button.module";
+
 .hireMe {
     min-height: 15vh;
     background-color: #f9f9f9;
@@ -13,6 +15,9 @@
         h3 span {
             color: #4169e1;
             font-weight: 500;
+        }
+        a {
+            @extend .button
         }
     }
 }
