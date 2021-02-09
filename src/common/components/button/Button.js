@@ -4,6 +4,6 @@ import React from "react";
 
 export function Button(props) {
     return <div>
-        <button onClick={() => alert("hey")} className={s.button}>{props.title}</button>
+        <button disabled={props.disabled} className={`${s.button} ${props.disabled ? s.disabled : ""}`}>{props.title}</button>
     </div>
 }

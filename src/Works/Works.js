@@ -4,6 +4,7 @@ import {Work} from "./Work/Work";
 import styleContainer from './../common/styles/Container.module.css'
 import SocialNetwork from "../assets/SocialNetwork.png";
 import Todolist from "../assets/todolist.png";
+import Cards from "../assets/cards.jpg";
 import {Title} from "../common/components/title/Title";
 
 export function Works() {
@@ -12,6 +13,9 @@ export function Works() {
     };
     const TodolistImage = {
         backgroundImage: 'url(' + Todolist + ')',
+    };
+    const CardsImage = {
+        backgroundImage: 'url(' + Cards + ')',
     };
 
     return (
@@ -23,8 +27,8 @@ export function Works() {
                         title={"Social Network"}
                         style={SocialNetworkImage}
                         description={"Create self made Social Network using React, Redux, Typescript"}
-                        link={"http://ElizarovArtem.github.io/SocialNetwork"}
-                        linkText={"Social Network on gh-pages"}
+                        link={"https://limitless-plains-08940.herokuapp.com/"}
+                        linkText={"Social Network on Heroku"}
                         secondLink={"https://github.com/ElizarovArtem/SocialNetwork"}
                         secondLinkText={"Social Network on GitHub"}
                     />
@@ -36,6 +40,15 @@ export function Works() {
                         linkText={"TodoList on gh-pages"}
                         secondLink={"https://github.com/ElizarovArtem/TodoList"}
                         secondLinkText={"TodoList on GitHub"}
+                    />
+                    <Work
+                        title={"Learning Cards"}
+                        style={CardsImage}
+                        description={"Create self made Cards learning app in team of 3 developers using React, Redux, Typescript"}
+                        link={"http://ElizarovArtem.github.io/Friday"}
+                        linkText={"Cards Learning on gh-pages"}
+                        secondLink={"https://github.com/ElizarovArtem/Friday"}
+                        secondLinkText={"Cards Learning on GitHub"}
                     />
                 </div>
             </div>
